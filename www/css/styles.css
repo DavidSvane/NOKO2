@@ -1,0 +1,18 @@
+:root {
+  --food: #c70;
+  --kitchen: #b22;
+  --laundry: #06a;
+  --calendar: #084;
+}
+
+* { box-sizing: border-box; text-decoration: none; }
+
+.old_center { display: block; width: 100%; text-align: center; }
+.error-msg { display: none; }
+
+.panel a { display: block; color: gray; font-size: 1.5em; padding: 0.2em 0.5em; }
+#circle_food, #circle_kitchen, #circle_laundry, #circle_calendar { width: 100%; height: 142px; margin-bottom: 21px; padding: 0 21px 0 142px; background-origin: border-box; background-position: left center; background-repeat: no-repeat; background-size: contain; color: white; display: flex; align-items: center; }
+#circle_food { background-color: var(--food); background-image: url('../res/icon_food.png'); }
+#circle_kitchen { background-color: var(--kitchen); background-image: url('../res/icon_kitchen.png'); }
+#circle_laundry { background-color: var(--laundry); background-image: url('../res/icon_laundry.png'); }
+#circle_calendar { background-color: var(--calendar); background-image: url('../res/icon_calendar.png'); }
